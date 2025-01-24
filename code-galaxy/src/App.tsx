@@ -1,11 +1,7 @@
 import React from "react";
 
-const App = () => {
-  return (
-    <div className="text-center text-xl">
-      Hello, Template!
-    </div>
-  );
-};
+function App() {
+  return <></>;
+}
 
 export default App;

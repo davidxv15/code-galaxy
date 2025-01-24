@@ -6,8 +6,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
-    "incremental": true,  // Enable incremental builds
-    "tsBuildInfoFile": "./.tsbuildinfo"  // Specify location of build info
+    "incremental": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "jsx": "react-jsx"  // Ensure this is set
   },
   "include": ["src"],
   "exclude": ["node_modules"]

@@ -1,7 +1,14 @@
 {
-  "files": [],
-  "references": [
-    { "path": "./tsconfig.app.json" },
-    { "path": "./tsconfig.node.json" }
-  ]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,  // Enable incremental builds
+    "tsBuildInfoFile": "./.tsbuildinfo"  // Specify location of build info
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
 }

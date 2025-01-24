@@ -6,9 +6,9 @@
     "esModuleInterop": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx", 
     "incremental": true,
-    "tsBuildInfoFile": "./.tsbuildinfo",
-    "jsx": "react-jsx"  // Ensure this is set
+    "tsBuildInfoFile": "./.tsbuildinfo"
   },
   "include": ["src"],
   "exclude": ["node_modules"]

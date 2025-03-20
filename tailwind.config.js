@@ -8,6 +8,7 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}", 
   ],
   theme: {
+    darkMode: "class", // Enable dark mode with `class` 
     extend: {
       animation: {
         bounceIn: "bounceIn 0.6s ease-in-out",
@@ -127,7 +128,6 @@ export default {
       },
     },
   },
-  darkMode: "class", // Enable dark mode with `class` 
   plugins: [
     require("tailwindcss-textshadow"),
     require("@tailwindcss/forms"), // Improved forms styling

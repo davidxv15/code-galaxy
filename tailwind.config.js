@@ -1,3 +1,6 @@
+
+
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -124,7 +127,7 @@ export default {
       },
     },
   },
-  darkMode: "class", // Enable dark mode with `class` strategy
+  darkMode: "class", // Enable dark mode with `class` 
   plugins: [
     require("tailwindcss-textshadow"),
     require("@tailwindcss/forms"), // Improved forms styling

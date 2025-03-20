@@ -1,3 +1,13 @@
+/**
+ * Tailwind Config – 🚀 Code Galaxy 🚀
+ * -----------------------------------
+ * • Content Paths 
+ * • Dark Mode 
+ * • Theme Extensions 
+ * • Responsive Breakpoints 
+ * • Animations & Keyframes 
+ * • Plugins & Utilities 
+ */
 
 
 
